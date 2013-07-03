@@ -1,0 +1,13 @@
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\bin\Debug\MVVMBuildProject.exe
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\bin\Debug\MVVMBuildProject.pdb
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\obj\x86\Debug\MVVMBuildProject_MarkupCompile.cache
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\obj\x86\Debug\MVVMBuildProject.g.resources
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\obj\x86\Debug\MVVMBuildProject.Properties.Resources.resources
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\obj\x86\Debug\MVVMBuildProject.exe
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\obj\x86\Debug\MVVMBuildProject.pdb
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\obj\x86\Debug\View\MainWindow.baml
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\obj\x86\Debug\View\MainWindow.g.cs
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\obj\x86\Debug\View\App.g.cs

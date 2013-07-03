@@ -1,0 +1,15 @@
+﻿<Window x:Class="MVVMBuildProject.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox Text="{Binding Path=StudentFirstName}"
+                 Grid.Row="1"
+                 Grid.Column="2"
+                 VerticalAlignment="Center" />
+        <TextBox Text="{Binding Path=StudentGradePointAverage}"
+                 Grid.Row="2"
+                 Grid.Column="2"
+                 VerticalAlignment="Center" />
+    </Grid>
+</Window>
