@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\James\Documents\MVVMBuildProject\MVVMBuild.Tests\bin\Debug\MVVMBuild.Tests.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-07-04" time="11:45:46">
+<test-results name="C:\Users\James\Documents\MVVMBuildProject\MVVMBuild.Tests\bin\Debug\MVVMBuild.Tests.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-07-04" time="13:44:28">
   <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.4984" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Users\James\Documents\MVVMBuildProject" machine-name="JAMES-PC" user="James" user-domain="James-PC" />
   <culture-info current-culture="en-GB" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\Users\James\Documents\MVVMBuildProject\MVVMBuild.Tests\bin\Debug\MVVMBuild.Tests.dll" executed="True" result="Success" success="True" time="0.071" asserts="0">
+  <test-suite type="Assembly" name="C:\Users\James\Documents\MVVMBuildProject\MVVMBuild.Tests\bin\Debug\MVVMBuild.Tests.dll" executed="True" result="Success" success="True" time="0.070" asserts="0">
     <results>
       <test-suite type="Namespace" name="MVVMBuild" executed="True" result="Success" success="True" time="0.051" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.051" asserts="0">
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.050" asserts="0">
             <results>
-              <test-suite type="TestFixture" name="UnitTest1" executed="True" result="Success" success="True" time="0.050" asserts="0">
+              <test-suite type="TestFixture" name="UnitTest1" executed="True" result="Success" success="True" time="0.049" asserts="0">
                 <results>
                   <test-case name="MVVMBuild.Tests.UnitTest1.TestMethod1" executed="True" result="Success" success="True" time="0.036" asserts="1" />
                 </results>

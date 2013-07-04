@@ -15,5 +15,12 @@ namespace MVVMBuild.Tests
             int x = 1;
             Assert.AreEqual(x,1);
         }
+
+        [Test]
+        public void TestMethod2()
+        {
+            int x = 2;
+            Assert.AreEqual(x, 2);
+        }
     }
 }
