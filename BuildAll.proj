@@ -34,6 +34,6 @@
 	<Target Name="Init" DependsOnTargets="CleanAll">
 		<MakeDir Directories="@(BuildArtifactsDir)" />
 	</Target>
-	
+	 
 	<Target Name="BuildAll" DependsOnTargets="$(BuildAllDependsOn)" />
 </Project>
