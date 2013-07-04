@@ -1,0 +1,1 @@
+2013-07-04 10:46:07,622 [9] ERROR MVVMBuildProject.View.MainWindow [(null)] - This is an error

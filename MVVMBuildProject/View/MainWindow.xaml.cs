@@ -1,5 +1,7 @@
-﻿using System.Windows;
-
+﻿using System;
+using System.Windows;
+using log4net;
+using log4net.Config;
 namespace MVVMBuildProject.View
 {
     /// <summary>
@@ -7,9 +9,15 @@ namespace MVVMBuildProject.View
     /// </summary>
     public partial class MainWindow : Window
     {
+        private static ILog log = LogManager.GetLogger(typeof(MainWindow));
         public MainWindow()
         {
-            InitializeComponent(); 
+           
+            InitializeComponent();
+           log.Error("This is an error");
         }
+
+       
+
     }
 }

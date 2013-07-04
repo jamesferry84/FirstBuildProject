@@ -24,6 +24,9 @@ namespace MVVMBuildProject.ViewModel
             }
         }
 
+ 
+        
+
         double _gradePointAverage;
         public double StudentGradePointAverage
         {
