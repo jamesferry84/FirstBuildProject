@@ -7,7 +7,7 @@
   </formats>
   <fileSets>
     <fileSet>
-      <directory>C:\Users\James\Documents\MVVMBuildProject\BuildArtifacts</directory>
+      <directory>BuildArtifacts\</directory>
     </fileSet>
   </fileSets>
 </assembly>
