@@ -14,3 +14,7 @@ C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\obj\x86\Debug\View\Ap
 C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\bin\Debug\MVVMBuildProject.exe.config
 C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\bin\Debug\log4net.config
 C:\Users\James\Documents\MVVMBuildProject\MVVMBuildProject\bin\Debug\log4net.dll
+C:\Users\James\Documents\MVVMBuildProject\BuildArtifacts\log4net.config
+C:\Users\James\Documents\MVVMBuildProject\BuildArtifacts\MVVMBuildProject.exe.config
+C:\Users\James\Documents\MVVMBuildProject\BuildArtifacts\MVVMBuildProject.exe
+C:\Users\James\Documents\MVVMBuildProject\BuildArtifacts\MVVMBuildProject.pdb

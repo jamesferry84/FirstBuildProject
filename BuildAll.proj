@@ -1,0 +1,39 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="BuildAll">
+	<ItemGroup>
+		<ProjectsToBuild Include="**\*proj" Exclude="$(MSBuildProjectFile)"/>
+		<NUnit Include="C:\Program Files (x86)\NUnit 2.6.2\bin\nunit-console.exe" Exclude="*.trx"/>
+		<UnitTestsDLL Include="**\bin\debug\*.Tests.dll" />
+		<TestsResultsPath Include="$(DestFolder)\TestResults.xml" />
+		<BuildArtifactsDir Include="BuildArtifacts\" />
+	</ItemGroup>
+	
+	<PropertyGroup>
+		<Configuration>Debug</Configuration>
+		<DestFolder>Deploy\</DestFolder>
+		<BuildAllDependsOn>Init;CoreBuild;Tests;CopyFiles</BuildAllDependsOn>
+	</PropertyGroup>
+	
+	<Target Name="CoreBuild">
+	<MSBuild Projects="@(ProjectsToBuild)" ContinueOnError="false" Targets="Rebuild" Properties="Configuration=$(Configuration);OutDir=%(BuildArtifactsDir.FullPath)" />
+	<!--<Output ItemName="OutputFiles" TaskParameter="TargetOutputs" />-->
+	</Target>
+	
+	<Target Name="CopyFiles">
+		<Copy SourceFiles="@(OutputFiles)" DestinationFiles="@(OutputFiles-> '$(DestFolder)%(RecursiveDir)%(Filename)%(Extension)')" />
+	</Target>
+	
+	<Target Name="Tests">
+		<Exec Command='"@(NUnit)" %(UnitTestsDLL.Identity) ' />
+	</Target>
+	
+	<Target Name="CleanAll">
+		<RemoveDir Directories="@(BuildArtifactsDir)" />
+
+	</Target>
+	
+	<Target Name="Init" DependsOnTargets="CleanAll">
+		<MakeDir Directories="@(BuildArtifactsDir)" />
+	</Target>
+	
+	<Target Name="BuildAll" DependsOnTargets="$(BuildAllDependsOn)" />
+</Project>

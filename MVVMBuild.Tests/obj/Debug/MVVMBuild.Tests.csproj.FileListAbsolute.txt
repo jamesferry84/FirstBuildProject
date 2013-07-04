@@ -3,3 +3,6 @@ C:\Users\James\Documents\MVVMBuildProject\MVVMBuild.Tests\bin\Debug\MVVMBuild.Te
 C:\Users\James\Documents\MVVMBuildProject\MVVMBuild.Tests\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\James\Documents\MVVMBuildProject\MVVMBuild.Tests\obj\Debug\MVVMBuild.Tests.dll
 C:\Users\James\Documents\MVVMBuildProject\MVVMBuild.Tests\obj\Debug\MVVMBuild.Tests.pdb
+C:\Users\James\Documents\MVVMBuildProject\MVVMBuild.Tests\bin\Debug\nunit.framework.dll
+C:\Users\James\Documents\MVVMBuildProject\BuildArtifacts\MVVMBuild.Tests.dll
+C:\Users\James\Documents\MVVMBuildProject\BuildArtifacts\MVVMBuild.Tests.pdb
