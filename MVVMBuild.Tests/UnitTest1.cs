@@ -19,7 +19,7 @@ namespace MVVMBuild.Tests
         [Test]
         public void TestMethod2()
         {
-            //change
+            //change another
             int y = 2;
             Assert.AreEqual(y, 2);
         }
